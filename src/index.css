@@ -1,0 +1,57 @@
+
+@import "tailwindcss";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+@theme {
+  --color-dark: rgb(22, 21, 21);
+  --color-light: rgb(253, 247, 247);
+  --color-accent: rgb(233, 152, 166);
+}
+
+@layer utilities {
+  .font-archivo {
+    font-family: 'Archivo Black', sans-serif;
+  }
+  
+  .text-stroke {
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+  }
+  
+  .text-stroke-white {
+    -webkit-text-stroke: 2px white;
+    
+    color: transparent;
+  }
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar for brutalist feel */
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(22, 21, 21);
+  border-left: 4px solid rgb(22, 21, 21);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(233, 152, 166);
+  border: 4px solid rgb(22, 21, 21);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FFFFFF;
+}
+
+.port-hero {
+  padding-top: 32px;
+}
