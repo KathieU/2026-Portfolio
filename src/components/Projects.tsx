@@ -52,9 +52,9 @@ export function Projects() {
       <div className="max-w-480 mx-auto">
         <div className="flex items-baseline justify-between mb-16 border-b-4 border-light pb-4">
           <h2 className="font-archivo text-6xl md:text-9xl text-light tracking-tighter">
-            SELECTED
+            FEATURED
             <br />
-            WORK
+            PROJECTS
           </h2>
           <span className="hidden md:block font-mono text-accent text-xl">
             (2023-2024)

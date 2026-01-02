@@ -29,9 +29,9 @@ export function Hero() {
             
           </h1>
            
-          <p className="font-mono mt-8 text-sm md:text-base max-w-lg font-bold uppercase leading-relaxed ml-[1%]">
+          <p className="font-mono mt-8 text-sm md:text-lg max-w-lg font-bold uppercase leading-relaxed ml-[1%]">
            
-          I help fast-growing startups build scalable websites <br /> that turn visitors <span className="text-accent italic">into customers</span>.
+          I help fast-growing startups build scalable websites that turn visitors <span className="text-accent italic">into customers</span>.
           
           </p>
         </div>
@@ -52,7 +52,7 @@ export function Hero() {
                 href="#work" 
                 className="w-full sm:w-auto px-8 py-4 border border-gray-600 text-dark font-bold text-lg tracking-wide hover:border-accent hover:text-accent transition-all flex items-center justify-center gap-2"
             >
-                View my work
+                View projects
                 <ArrowDown size={20} />
             
             </a>
