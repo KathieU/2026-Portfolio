@@ -24,11 +24,11 @@ export function Contact() {
 
         <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-12">
           <a
-            href="mailto:hello@example.com"
+            href="mailto:udoh.cath@gmail.com"
             className="group relative inline-block"
           >
             <span className="font-archivo text-4xl md:text-6xl text-light group-hover:text-accent transition-colors duration-200">
-              hello@example.com
+              udoh.cath@gmail.com
             </span>
             <div className="w-full h-2 bg-light group-hover:bg-accent mt-2 transition-colors duration-200"></div>
           </a>

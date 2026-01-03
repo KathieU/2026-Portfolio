@@ -40,7 +40,7 @@ export function Skills() {
     >
       <div className="max-w-480 mx-auto">
         <h2 className="font-archivo text-6xl md:text-9xl text-dark tracking-tighter mb-16 uppercase">
-          Capabilities
+          Skills
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-0 border-t-8 border-dark">
