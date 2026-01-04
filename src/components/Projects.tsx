@@ -56,9 +56,9 @@ export function Projects() {
             <br />
             PROJECTS
           </h2>
-          <span className="hidden md:block font-mono text-accent text-xl">
+          {/* <span className="hidden md:block font-mono text-accent text-xl">
             (2023-2024)
-          </span>
+          </span> */}
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

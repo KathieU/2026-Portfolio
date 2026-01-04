@@ -1,11 +1,11 @@
 export function Skills() {
   const skills = [
     {
-      name: 'FRONTEND DEV',
+      name: 'HTML & CSS',
       level: 'EXPERT',
     },
     {
-      name: 'UI/UX DESIGN',
+      name: 'JAVASCRIPT',
       level: 'ADVANCED',
     },
     {
@@ -17,19 +17,19 @@ export function Skills() {
       level: 'ADVANCED',
     },
     {
-      name: 'MOTION',
+      name: 'GUTENBERG',
       level: 'INTERMEDIATE',
     },
     {
-      name: 'BACKEND',
+      name: 'OXYGEN',
       level: 'COMPETENT',
     },
     {
-      name: 'ACCESSIBILITY',
+      name: 'ELEMENTOR',
       level: 'ADVANCED',
     },
     {
-      name: 'PERFORMANCE',
+      name: 'CUSTOM WORDPRESS THEME',
       level: 'EXPERT',
     },
   ]
