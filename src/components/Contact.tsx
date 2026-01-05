@@ -1,5 +1,5 @@
 
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { SiGithub, SiTiktok, SiX } from "react-icons/si";
 export function Contact() {
   return (
     <section
@@ -36,25 +36,28 @@ export function Contact() {
           <div className="flex gap-4 md:gap-6">
             {[
               {
-                icon: Github,
+                icon: SiGithub,
                 label: 'Github',
+                link: 'https://github.com/KathieU',
               },
               {
-                icon: Linkedin,
-                label: 'LinkedIn',
+                icon: SiTiktok,
+                label: 'TikTok',
+                link: 'https://www.tiktok.com/@gutenberg_girl',
               },
               {
-                icon: Twitter,
-                label: 'Twitter',
+                icon: SiX,
+                label: 'X (Twitter)',
+                link: 'https://x.com/Gutenberg_Girl',
               },
-            ].map(({ icon: Icon, label }) => (
+            ].map(({ icon: Icon, label, link }) => (
               <a
                 key={label}
-                href="#"
+                href={link}
                 className="w-16 h-16 md:w-20 md:h-20 border-4 border-light flex items-center justify-center hover:bg-accent hover:border-accent hover:text-dark text-light transition-all duration-200 group"
                 aria-label={label}
               >
-                <Icon className="w-8 h-8 md:w-10 md:h-10 stroke-[2.5]" />
+                <Icon className="w-8 h-8 md:w-10 md:h-10" />
               </a>
             ))}
           </div>
