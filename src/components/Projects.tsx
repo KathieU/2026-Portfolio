@@ -10,7 +10,7 @@ type Project = {
 const projects: Project[] = [
   {
     id: '01',
-    title: 'NEON FLUX',
+    title: 'ENTREPRENEURS.NG',
     category: 'E-COMMERCE',
     description:
       'A high-performance headless commerce platform built for speed and conversion.',
