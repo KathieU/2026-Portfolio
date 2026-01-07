@@ -19,7 +19,7 @@ const projects: Project[] = [
   },
   {
     id: '02',
-    title: 'RAW DATA',
+    title: 'TECHPOINT AFRICA',
     category: 'DASHBOARD',
     description: 'Analytics visualization for enterprise data streams.',
     stack: ['REACT', 'D3.JS', 'TAILWIND'],
