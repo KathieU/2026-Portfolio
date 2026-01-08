@@ -20,23 +20,23 @@ const projects: Project[] = [
   {
     id: '02',
     title: 'TECHPOINT AFRICA',
-    category: 'DASHBOARD',
+    category: 'Custom wordpress theme',
     description: 'Analytics visualization for enterprise data streams.',
     stack: ['REACT', 'D3.JS', 'TAILWIND'],
     size: 'small',
   },
   {
     id: '03',
-    title: 'VOID',
-    category: 'IDENTITY',
+    title: 'BUSINESSFRONT LIMITED',
+    category: 'Website',
     description: 'Brand identity and digital presence for a stealth startup.',
     stack: ['DESIGN', 'STRATEGY', 'GSAP'],
     size: 'small',
   },
   {
     id: '04',
-    title: 'MONOLITH',
-    category: 'ARCHITECTURE',
+    title: 'LSE',
+    category: 'EVENT SITE',
     description:
       'Portfolio site for an award-winning brutalist architecture firm.',
     stack: ['REACT', 'THREE.JS', 'CMS'],
