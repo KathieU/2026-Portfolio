@@ -14,7 +14,7 @@ const projects: Project[] = [
     category: 'E-COMMERCE',
     description:
       'A high-performance headless commerce platform built for speed and conversion.',
-    stack: ['NEXT.JS', 'SHOPIFY', 'WEBGL'],
+    stack: ['WORDPRESS', 'WOOCOMMERCE', 'ELEMENTOR'],
     size: 'large',
   },
   {
@@ -22,7 +22,7 @@ const projects: Project[] = [
     title: 'TECHPOINT AFRICA',
     category: 'Custom wordpress theme',
     description: 'Analytics visualization for enterprise data streams.',
-    stack: ['REACT', 'D3.JS', 'TAILWIND'],
+    stack: ['WORDPRESS', 'GUTENBERG', 'TAILWIND'],
     size: 'small',
   },
   {
@@ -30,13 +30,13 @@ const projects: Project[] = [
     title: 'BUSINESSFRONT LIMITED',
     category: 'Website',
     description: 'Brand identity and digital presence for a stealth startup.',
-    stack: ['DESIGN', 'STRATEGY', 'GSAP'],
+    stack: ['WORDPRESS', 'GUTENBERG', 'GSAP'],
     size: 'small',
   },
   {
     id: '04',
-    title: 'LSE',
-    category: 'EVENT SITE',
+    title: 'WORKPLACE REPORT',
+    category: 'CUSTOM QUIZ',
     description:
       'Portfolio site for an award-winning brutalist architecture firm.',
     stack: ['REACT', 'THREE.JS', 'CMS'],
