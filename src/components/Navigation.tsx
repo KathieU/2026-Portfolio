@@ -12,7 +12,7 @@ export function Navigation() {
   }, [])
   const navLinks = [
     {
-      name: 'WORK',
+      name: 'PROJECTS',
       href: '#work',
     },
     {
