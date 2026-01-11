@@ -65,7 +65,7 @@ export function Contact() {
       </div>
 
       <div className="mt-24 border-t-4 border-[#333] pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-[#666] font-mono text-sm uppercase font-bold">
-        <span>© 2026 Brutalist Portfolio</span>
+        <span>© 2026 Catherine Udoh</span>
         <span>Designed & Built with React</span>
       </div>
     </section>
